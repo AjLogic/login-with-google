@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color:rgb(84, 123, 194);
+    min-height: 760px;
+    height:600px;
+   
+}
+.dashboard {
+    min-height: 344px;
+    height: 300px;
+    width: 501px;
+    background-color: white;
+    margin-left: 34%;
+    margin-top: 8%;
+}
+.mat-form-field {
+    /* display: inline-block; */
+    position: inherit;
+    text-align: left;
+}
+
+.group-title {
+    color: #357d8f;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+.example-button-row{
+    text-align: center;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
